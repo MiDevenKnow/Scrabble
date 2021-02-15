@@ -269,18 +269,20 @@ int main(){
 		printf("\n\t==================================");
 		printf("\n\t-------LET'S PLAY SCRABBLE!-------");
 		printf("\n\t==================================\n\n");
-		int i,letters[10];
+		int i;
+		char letters[11];
 		for(i=0;i<10;i++){
-			letters[i] = (rand() % (123-97))+97;
+			letters[i] = "abcdefghijklmnopqrstuvwxyz" [random() % 26];
 		}
-
+		letters[i] = '\0';
 		i=0;
 		while(i<=9){
 			int x = (rand() % (9-1))+1;
 			int y = (rand() % (9-1))+1;
 
 			if(isEmpty(x,y)==1 && isOnBoard(x,y)==1){
-				passString(x,y,(char)letters[i]);
+
+				passString(x,y,letters[i]);
 				i++;
 			}
 		}
