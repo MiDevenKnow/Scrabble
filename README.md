@@ -14,7 +14,8 @@ SCRABBLE_LETTER_VALUES = {
 # Rules:
 1. To get a score for a word, the letter played must form a word that is within words.txt. A word reversed version 
    is counted if it is valid. For example, if the following letters are on the board “tao” and
-   “b” is placed after “o” then the word become “boat”. Both "toab" & "boat", palindromes are therefore counted twice.
+   “b” is placed after “o” then the word become “boat”. Both "toab" & "boat" are checked to see if they are valid words, 
+   palindromes are therefore counted twice.
    
 2. The players will take turns in placing a letter on the board. Each player must either place a letter
    on the board or ask to quit the game.
