@@ -24,4 +24,4 @@ SCRABBLE_LETTER_VALUES = {
 
 # Platform
 
-This program was built on Ubuntu 20.04, for window users uncomment the code to clear the terminal & comment the cuurent code.
+This program was built on Ubuntu 20.04, for windows users uncomment the code to clear the terminal & comment the current code.
