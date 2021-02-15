@@ -446,7 +446,7 @@ int main(){
 				winner();
 				break;
 			}
-				// Even number symbolizes player 1
+					// Even number symbolizes player 1
 			else if(moves%2==0){
 				system("clear");
 				// system("cls"); For windows devices
@@ -519,7 +519,7 @@ int main(){
 				}
 				moves++;
 			}
-				// Odd number symbolizes player 2
+					// Odd number symbolizes player 2
 			else{
 				system("clear");
 				// system("cls"); For windows devices
