@@ -29,20 +29,20 @@ This program was built on Ubuntu 20.04, for windows users uncomment the code to 
 # To Play
   **On Linux:**
   
-    Navigate to the project folder and type the following commands:
+   Navigate to the project folder and type the following commands:
   
-    gcc -o board board.c
+   gcc -o board board.c
   
-    ./board
+   ./board
   
   **On Windows:**
   
-    I recommned installing Dev C++, A free, portable, fast and simple C/C++ IDE.
+   I recommned installing Dev C++, A free, portable, fast and simple C/C++ IDE.
   
-    Once installed, simply open the source code file and compile and run.
+   Once installed, simply open the source code file and compile and run.
   
-    Remember to comment the system("clear"); lines and uncomment the system("cls"); lines.
+   Remember to comment the system("clear"); lines and uncomment the system("cls"); lines.
   
-    Dev C++ can be downloaded from the link below.
+   Dev C++ can be downloaded from the link below.
   
-    https://sourceforge.net/projects/orwelldevcpp/
+   https://sourceforge.net/projects/orwelldevcpp/
