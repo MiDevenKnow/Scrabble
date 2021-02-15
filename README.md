@@ -1,6 +1,6 @@
 # Scrabble
 
-The aim of the game is to spell words more and higher valued words than your opponent. Each letter has a value as shown
+The aim of the game is to spell more and higher valued words than your opponent. Each letter has a value as shown
 below.
 A player's score for a word is calculated by using these values. 
 The words.txt file is used to validate words. 
@@ -14,10 +14,14 @@ SCRABBLE_LETTER_VALUES = {
 # Rules:
 1. To get a score for a word, the last letter played should start a word in any direction. This rule is
    included to simplify the game. For example, if the following letters are on the board “tao” and
-   “b” is placed after “o” then the word become “boat”. i.e A words is counted if its reversed version is valid.
+   “b” is placed after “o” then the word become “boat”. i.e A word reversed version is counted if it is valid.
    
 2. The players will take turns in placing a letter on the board. Each player must either place a letter
    on the board or ask to quit the game.
    
 3. The game ends when there are no more empty squares on the board, or one of the player types
    'quit'.
+
+# Platform
+
+This program was built on Ubuntu 20.04, for window users uncomment the code to clear the terminal & comment the cuurent code.
