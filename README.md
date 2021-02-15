@@ -12,9 +12,9 @@ SCRABBLE_LETTER_VALUES = {
 }
 
 # Rules:
-1. To get a score for a word, the last letter played should start a word in any direction. This rule is
-   included to simplify the game. For example, if the following letters are on the board “tao” and
-   “b” is placed after “o” then the word become “boat”. i.e A word reversed version is counted if it is valid.
+1. To get a score for a word, the letter played must form a word that is within words.txt. A word reversed version 
+   is counted if it is valid. For example, if the following letters are on the board “tao” and
+   “b” is placed after “o” then the word become “boat”. Both "toab" & "boat", palindromes are therefore counted twice.
    
 2. The players will take turns in placing a letter on the board. Each player must either place a letter
    on the board or ask to quit the game.
@@ -25,3 +25,16 @@ SCRABBLE_LETTER_VALUES = {
 # Platform
 
 This program was built on Ubuntu 20.04, for windows users uncomment the code to clear the terminal & comment the current code.
+
+# To Play
+ `# On Linux:
+  Navigate to program folder directory and type the following commands:
+  gcc -o board board.c
+  ./board
+  
+  #On Windows:
+  I recommned installing Dev C++, A free, portable, fast and simple C/C++ IDE.
+  Once installed, simply open the source code file and compile and run.
+  Remember to comment the system("clear"); lines and uncomment the system("cls"); lines.
+  Dev C++ can be downloaded from the link below.
+  https://sourceforge.net/projects/orwelldevcpp/
