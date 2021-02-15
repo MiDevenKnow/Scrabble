@@ -27,20 +27,22 @@ SCRABBLE_LETTER_VALUES = {
 This program was built on Ubuntu 20.04, for windows users uncomment the code to clear the terminal & comment the current code.
 
 # To Play
- `**On Windows:**
-  Navigate to program folder directory and type the following commands:
+  **On Linux:**
+  
+  Navigate to the project folder and type the following commands:
   
   gcc -o board board.c
   
   ./board
   
-  **On Windows:***
+  **On Windows:**
+  
   I recommned installing Dev C++, A free, portable, fast and simple C/C++ IDE.
   
   Once installed, simply open the source code file and compile and run.
   
   Remember to comment the system("clear"); lines and uncomment the system("cls"); lines.
   
-  
   Dev C++ can be downloaded from the link below.
+  
   https://sourceforge.net/projects/orwelldevcpp/
