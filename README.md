@@ -22,6 +22,8 @@ SCRABBLE_LETTER_VALUES = {
    
 3. The game ends when there are no more empty squares on the board, or one of the player types
    'quit'.
+   
+4. The winner of the game is displayed. In the event of tie, an appropriate message is displayed.
 
 # Platform
 
