@@ -272,7 +272,7 @@ int main(){
 		int i;
 		char letters[11];
 		for(i=0;i<10;i++){
-			letters[i] = "abcdefghijklmnopqrstuvwxyz" [random() % 26];
+			letters[i] = "abcdefghijklmnopqrstuvwxyz" [rand() % 26];
 		}
 		letters[i] = '\0';
 		i=0;
